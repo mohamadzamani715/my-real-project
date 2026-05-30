@@ -1,13 +1,16 @@
 { 
   "name": "task-cli", 
-  "version": "1.0.0", 
-  "description": "A simple CLI tool to manage tasks", 
+  "version": "2.0.0", 
+  "description": "A powerful CLI tool to manage tasks with persistent storage", 
   "main": "index.js", 
   "scripts": { 
     "start": "node index.js", 
     "test": "node test.js" 
   }, 
-  "keywords": ["cli", "tasks"], 
+  "dependencies": { 
+    "chalk": "^4.1.2" 
+  }, 
+  "keywords": ["cli", "tasks", "productivity"], 
   "author": "Mohamad Zamani", 
   "license": "MIT" 
 } 
