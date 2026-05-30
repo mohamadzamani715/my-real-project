@@ -1,0 +1,13 @@
+{ 
+  "name": "task-cli", 
+  "version": "1.0.0", 
+  "description": "A simple CLI tool to manage tasks", 
+  "main": "index.js", 
+  "scripts": { 
+    "start": "node index.js", 
+    "test": "node test.js" 
+  }, 
+  "keywords": ["cli", "tasks"], 
+  "author": "Mohamad Zamani", 
+  "license": "MIT" 
+} 

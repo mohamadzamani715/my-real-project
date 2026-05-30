@@ -1,29 +1,29 @@
-# my-real-project 
+# Task CLI - A simple task manager 
  
-A simple Node.js project created for learning Git and GitHub. 
+A command-line tool to manage your daily tasks. Built with Node.js. 
  
 ## Features 
-- Prints "Hello, World!" to the console 
-- Easy to extend for learning JavaScript 
+- Add new tasks 
+- List all tasks 
+- Mark tasks as done 
+- Persistent storage using JSON file 
  
 ## Installation 
-1. Clone the repository: 
-   ```bash 
-   git clone https://github.com/mohamadzamani715/my-real-project.git 
-   ``` 
-2. Navigate to the project folder: 
-   ```bash 
-   cd my-real-project 
-   ``` 
- 
-## Usage 
-Run the script with Node.js: 
 ```bash 
-node index.js 
+git clone https://github.com/mohamadzamani715/my-real-project.git 
+cd my-real-project 
 ``` 
  
-Expected output: 
-Hello, World! 
+## Usage 
+```bash 
+node index.js add "Write documentation" 
+node index.js list 
+node index.js done 1 
+``` 
+ 
+## Run tests 
+```bash 
+node test.js 
 ``` 
  
 ## License 
